@@ -5,3 +5,8 @@ type: application
 version: 0.1.0
 appVersion: "1.16.0"
 icon: https://seeklogo.com/images/N/nginx-logo-FF65602A76-seeklogo.com.png # http or file
+dependencies:
+  - name: grafana
+    repository: file://../grafana
+    version: 6.33.1
+
