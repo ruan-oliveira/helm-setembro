@@ -59,6 +59,7 @@ secret:
     MONGO_URI: "mongodb://adfafaf"
     USERNAME: "admin"
     PASSOWORD: "password"
+    TREINA: "K8S"
 
 ingress:
   enabled: false
