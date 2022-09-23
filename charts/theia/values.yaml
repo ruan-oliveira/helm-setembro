@@ -51,6 +51,13 @@ readinessProbe:
     path: /
     port: http
 
+configMap:
+  path: /home/project/conf
+  data:
+    arquivo.conf: |-
+      ambiente=dev
+      forks=20
+      etc...
 
 ingress:
   enabled: false
