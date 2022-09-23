@@ -53,6 +53,13 @@ readinessProbe:
     path: /
     port: http
 
+secret:
+  name: ""
+  data: 
+    MONGO_URI: "mongodb://adfafaf"
+    USERNAME: "admin"
+    PASSOWORD: "password"
+
 ingress:
   enabled: false
   className: ""

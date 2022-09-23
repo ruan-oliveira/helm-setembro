@@ -17,7 +17,7 @@ icon: https://seeklogo.com/images/N/nginx-logo-FF65602A76-seeklogo.com.png # htt
 
 ```{{ .Values.service.targetPort }}````
 
-```
+```yaml
 service:
   type: ClusterIP
   port: 80
